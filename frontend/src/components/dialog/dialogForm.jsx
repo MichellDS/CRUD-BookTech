@@ -145,7 +145,7 @@ export default function FormDialog(props) {
             autoFocus
             margin="dense"
             id="nota"
-            label="Nota do Livro"
+            label="Nota para o Livro"
             defaultValue={props.nota}
             type="text"
             onChange={handleChangeValues}
@@ -155,7 +155,7 @@ export default function FormDialog(props) {
             autoFocus
             margin="dense"
             id="ranque"
-            label="Ranque"
+            label="Ranque de Prioridade"
             defaultValue={props.ranque}
             type="text"
             onChange={handleChangeValues}

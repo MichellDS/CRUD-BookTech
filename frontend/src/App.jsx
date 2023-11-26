@@ -67,7 +67,7 @@ export default function App() {
         <input
           type="text"
           name="nome"
-          placeholder="Nome"
+          placeholder="Nome do Livro"
           className="register-input"
           onChange={handleaddValues}
         />
@@ -106,14 +106,14 @@ export default function App() {
         </select>
         <input
           type="text"
-          placeholder="Nota/Avaliação "
+          placeholder="Nota para o Livro"
           name="nota"
           className="register-input"
           onChange={handleaddValues}
         />
         <input
           type="text"
-          placeholder="Ranque de prioridade"
+          placeholder="Ranque de Prioridade"
           name="ranque"
           className="register-input"
           onChange={handleaddValues}
