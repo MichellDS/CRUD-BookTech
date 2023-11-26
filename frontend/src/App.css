@@ -4,34 +4,46 @@
 }
 
 .app-container {
-  height: 100vh;
+  height: 120vh;
+  width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+  align-items: right;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  background-image: url('./src/components/cards/img/biblioteca.jpg');
+  background-size: cover;
+  
+ 
 }
 
 .register-container {
-  padding: 10px 20px;
+  padding: 30px;
   width: max-content;
   height: max-content;
   margin-top: 20px;
-  border: 3px solid black;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
+  text-align: right;
+  background-color: #eedec1;
+  border-style: ridge;
 }
+
 
 .register-title {
   text-align: center;
   margin-bottom: 20px;
-  font-family: fantasy;
+  font-family: Book Antiqua;
+  width: 100%;
 }
 
 .register-input {
   display: block;
-  margin: 10px auto;
-  padding: 7px 0;
+  margin: 10px;
+  padding: 7px;
 }
 
 .register-button {
-  padding: 2px 5px;
+  padding: 2px;
+  
 }
